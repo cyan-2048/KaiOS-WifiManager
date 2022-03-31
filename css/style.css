@@ -1,0 +1,17 @@
+#qr {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#qrcode {
+	display: inline-block;
+	padding: 20px;
+	background-color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

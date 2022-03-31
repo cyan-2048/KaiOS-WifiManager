@@ -1,0 +1,33 @@
+{
+	"name": "Wifi-Manager",
+	"description": "manage wifi for cyan by cyan",
+	"permissions": {
+		"device-storage:sdcard": {
+			"access": "readonly"
+		},
+		"engmode-extension": {
+			"description": "Handle KaiOS 2.5.1+ devices"
+		},
+		"wifi-manage": {},
+		"video-capture": {
+			"description": "Reading Codes using the Camera"
+		}
+	},
+	"launch_path": "/index.html",
+	"type": "certified",
+	"origin": "app://wifi-manager.cyankindasus.com",
+	"icons": {
+		"240": "/icon.png"
+	},
+	"activities": {
+		"_managerQR": {
+			"href": "./activities/qr_scanner.html",
+			"disposition": "inline",
+			"returnValue": true
+		}
+	},
+	"developer": {
+		"name": "Cyan",
+		"url": "https://www.kaiostech.com"
+	}
+}
